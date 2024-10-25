@@ -1,0 +1,4 @@
+GCC install in windows with conda
+
+conda install conda-forge::m2w64-gcc
+gcc -mavx2 -o avx2_example main.c
